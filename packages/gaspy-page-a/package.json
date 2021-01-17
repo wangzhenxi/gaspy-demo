@@ -1,0 +1,12 @@
+{
+  "name": "@gaspy-demo-page/a",
+  "version": "0.0.1",
+  "description": "a页面",
+  "author": "wangzhenxi <im@joshwong.cn>",
+  "main": "./lib/index.js",
+  "exports": "./lib/index.js",
+  "license": "MIT",
+  "scripts": {
+    "serve": "tsc --module commonjs --watch"
+  }
+}

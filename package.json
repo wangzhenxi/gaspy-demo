@@ -1,0 +1,30 @@
+{
+  "name": "gaspy-demo",
+  "version": "0.0.1",
+  "description": "",
+  "author": "wangzhenxi <im@joshwong.cn>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "bootstrap": "gaspy-cli bootstrap",
+    "serve": "gaspy-cli serve",
+    "build": "gaspy-cli build",
+    "test": "gaspy-cli test"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">= 12.14.0",
+    "yarn": ">=2.4.0"
+  },
+  "devDependencies": {
+    "@gaspy/cli": "^0.0.1"
+  },
+  "resolutions": {
+    "@gaspy/cli": "portal:../gaspy/packages/gaspy-cli",
+    "@gaspy/compiler": "portal:../gaspy/packages/gaspy-compiler",
+    "@gaspy/launcher": "portal:../gaspy/packages/gaspy-launcher",
+    "@gaspy/tool": "portal:../gaspy/packages/gaspy-tool"
+  }
+}
