@@ -19,12 +19,6 @@
     "yarn": ">=2.4.0"
   },
   "devDependencies": {
-    "@gaspy/cli": "^0.0.1"
-  },
-  "resolutions": {
-    "@gaspy/cli": "portal:../gaspy/packages/gaspy-cli",
-    "@gaspy/compiler": "portal:../gaspy/packages/gaspy-compiler",
-    "@gaspy/launcher": "portal:../gaspy/packages/gaspy-launcher",
-    "@gaspy/tool": "portal:../gaspy/packages/gaspy-tool"
+    "@gaspy/cli": "0.0.5"
   }
 }
