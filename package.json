@@ -19,6 +19,9 @@
     "yarn": ">=2.4.0"
   },
   "devDependencies": {
-    "@gaspy/cli": "0.0.5"
+    "@gaspy/cli": "0.0.7"
+  },
+  "dependencies": {
+    "vue": "3.0.5"
   }
 }

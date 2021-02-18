@@ -1,5 +1,12 @@
+
+import { createApp } from 'vue'
+
 function render() {
-  console.log('cb render')
+  createApp({
+    render() {
+      return 'vue rendered'
+    }
+  }).mount('#app')
 }
 
-export { render }
+render()
